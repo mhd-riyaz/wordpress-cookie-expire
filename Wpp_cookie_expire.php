@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Wpp Set Cookie Expire
  * Plugin URI: https://mhdriyaz.com/wppcookieexpire
- * Description: Using this plugin remember me in login can be enabled for long time. This plugin gives settings page to add custom value for remember me
- * Version: 1.0
+ * Description: Using this plugin remember me in login can be enabled for time configured in admin. This plugin gives settings page to add custom value for remember me
+ * Version: 1.1
  * Author: Mohamed Riyaz
  * Author URI: http://www.mhdriyaz.in
  * License: GPL2
@@ -71,6 +71,5 @@ class Wpp_cookie_expire{
         echo '<input type="text" name="' . $type . '_cookie_expire" value="' . intval( $expires ) . '" class="medium-text" /> days';
 	}
 }
-
 Wpp_cookie_expire::Wpp_instance();
 ?>
